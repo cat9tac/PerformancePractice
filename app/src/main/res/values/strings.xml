@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PerformancePractice</string>
+    <string name="anr_tv_description">点击</string>
+    <string name="anr_btn_start_service">启动服务</string>
+    <string name="anr_btn_bind_service">绑定服务</string>
+    <string name="anr_btn_aidl">aidl</string>
 </resources>

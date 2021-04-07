@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.performancepractice">
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    package="com.example.server">
 
     <application
         android:allowBackup="true"
@@ -11,12 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PerformancePractice">
         <service
-            android:name=".anr.ANRService"
+            android:name=".service.MyService"
             android:enabled="true"
             android:exported="true"></service>
 
-        <activity android:name=".anr.ANRActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ServerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
